@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Hierarchie_de_classes
 {
-    public interface ITruck
+    public interface ITruck: IRoadVehicle
     {
+        int MaxFreight();
     }
 }

@@ -6,7 +6,8 @@ namespace Hierarchie_de_classes
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            ITruck mercedes = new Truck_Template();
+            ICar renault = new Car_Template();
         }
     }
 }

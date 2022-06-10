@@ -6,7 +6,21 @@ using System.Threading.Tasks;
 
 namespace Hierarchie_de_classes
 {
-    public class Truck_Template
+    public class Truck_Template : ITruck
     {
+        public int LicensePlate()
+        {
+            throw new NotImplementedException();
+        }
+
+        public int MaxFreight()
+        {
+            throw new NotImplementedException();
+        }
+
+        public int MaxLegalSpeed()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

@@ -8,5 +8,6 @@ namespace Hierarchie_de_classes
 {
     public interface IVehicle
     {
+        int LicensePlate();
     }
 }
