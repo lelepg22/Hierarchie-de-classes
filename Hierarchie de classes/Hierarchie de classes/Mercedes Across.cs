@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Hierarchie_de_classes
 {
-    public class Mercedes_Across : Truck_Template
+    public class Mercedes_Across 
     {
         public Truck_Template template;
         public Mercedes_Across(Truck_Template useIt)

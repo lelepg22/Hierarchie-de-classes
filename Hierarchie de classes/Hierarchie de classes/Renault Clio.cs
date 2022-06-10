@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Hierarchie_de_classes
 {
-    public class Renault_Clio : Car_Template
+    public class Renault_Clio 
     {
         public Car_Template templateCar;
         public Renault_Clio(Car_Template useIt)
@@ -14,6 +14,8 @@ namespace Hierarchie_de_classes
             templateCar = useIt;
 
             useIt.LicensePlate();
+
+            useIt.MaxPassengerCount();
         }
          
        
