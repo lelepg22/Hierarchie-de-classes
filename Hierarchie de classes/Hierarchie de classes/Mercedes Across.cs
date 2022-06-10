@@ -6,26 +6,23 @@ using System.Threading.Tasks;
 
 namespace Hierarchie_de_classes
 {
-    public class Mercedes_Across : ITruck
+    public class Mercedes_Across : Truck_Template
     {
-
-        public Mercedes_Across(ITruck mercedes)
+        public Truck_Template template;
+        public Mercedes_Across(Truck_Template useIt)
         {
+            template = useIt;
 
-        }
-        int IVehicle.LicensePlate()
-        {
-            throw new NotImplementedException();
+            useIt.LicensePlate();
+
+
+            useIt.MaxFreight();
+
+
+            useIt.MaxLegalSpeed();
+            
         }
 
-        int ITruck.MaxFreight()
-        {
-            throw new NotImplementedException();
-        }
-
-        int IRoadVehicle.MaxLegalSpeed()
-        {
-            throw new NotImplementedException();
-        }
     }
+
 }

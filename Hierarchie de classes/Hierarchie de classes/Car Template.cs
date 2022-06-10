@@ -9,17 +9,17 @@ namespace Hierarchie_de_classes
     public class Car_Template : ICar
 
     {
-        int IVehicle.LicensePlate()
+       public int LicensePlate()
         {
             throw new NotImplementedException();
         }
 
-        int IRoadVehicle.MaxLegalSpeed()
+        public int MaxLegalSpeed()
         {
             throw new NotImplementedException();
         }
 
-        int ICar.MaxPassengerCount()
+        public int MaxPassengerCount()
         {
             throw new NotImplementedException();
         }

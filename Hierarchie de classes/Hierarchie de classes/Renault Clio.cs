@@ -6,24 +6,16 @@ using System.Threading.Tasks;
 
 namespace Hierarchie_de_classes
 {
-    public class Renault_Clio : ICar
+    public class Renault_Clio : Car_Template
     {
-
-        public Renault_Clio(ICar renault) { 
-        }
-        public int LicensePlate()
+        public Car_Template templateCar;
+        public Renault_Clio(Car_Template useIt)
         {
-            throw new NotImplementedException();
-        }
+            templateCar = useIt;
 
-        public int MaxLegalSpeed()
-        {
-            throw new NotImplementedException();
+            useIt.LicensePlate();
         }
-
-        public int MaxPassengerCount()
-        {
-            throw new NotImplementedException();
-        }
+         
+       
     }
 }
