@@ -9,6 +9,12 @@ namespace Hierarchie_de_classes
     public class Car_Template : ICar
 
     {
+        public class Renault_Clio
+        {
+
+
+
+        }
         int IVehicle.LicensePlate()
         {
             throw new NotImplementedException();
