@@ -8,6 +8,12 @@ namespace Hierarchie_de_classes
 {
     public class Truck_Template : ITruck
     {
+        public class Mercedes_Across 
+        {
+
+           
+          
+        }
         public int LicensePlate()
         {
             throw new NotImplementedException();
