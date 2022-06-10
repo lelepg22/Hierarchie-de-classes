@@ -6,20 +6,22 @@ using System.Threading.Tasks;
 
 namespace Hierarchie_de_classes
 {
-    public class Car_Template : ICar
-
+    public class Renault_Clio : ICar
     {
-        int IVehicle.LicensePlate()
+
+        public Renault_Clio(ICar renault) { 
+        }
+        public int LicensePlate()
         {
             throw new NotImplementedException();
         }
 
-        int IRoadVehicle.MaxLegalSpeed()
+        public int MaxLegalSpeed()
         {
             throw new NotImplementedException();
         }
 
-        int ICar.MaxPassengerCount()
+        public int MaxPassengerCount()
         {
             throw new NotImplementedException();
         }
